@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+}
+/* Navbar St*/
+
+.nav-content h1{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.nav-content h1:hover {
+    color: #ffd700;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    color: white;
+    z-index: 1000;
+}
+
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  background-color: #555;
+  color: #ffd700;
+}
+
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Hero Section */
+.hero {
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=3270&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero h1:hover{
+    color: rgb(180, 197, 141);
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.hero p:hover{
+    color: rgb(134, 175, 39);
+}
+/* Brands Section */
+.brands-list {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.brands-list h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Logos */
+.brand-images {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    padding: 20px;
+    gap: 20px; /* Space between logos */
+}
+.brand-images div img:hover{
+    transform: translateY(-15px);
+}
+
+.brand-item img {
+    height: 100px; 
+    width: auto;
+    object-fit: contain;
+    max-width: 200px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}

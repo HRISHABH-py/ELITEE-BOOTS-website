@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the best brands in football footwear at Elite Boots. Shop Nike, Adidas, Puma, and more!">
+    <title>Brands - Elite Boots</title>
+    <link rel="icon" href="12.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h1>ELITE BOOTS</h1>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#products">New Arrivals</a>
+                <a href="index.html#sale">Sale</a>
+                <a href="brands.html">Brands</a>
+            </div>
+            <div class="cart-icon" onclick="toggleCart()" aria-label="Shopping cart" role="button" tabindex="0" onkeypress="if(event.key === 'Enter') toggleCart();">
+                🛒<span id="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Our Trusted Brands</h1>
+            <p>"Explore the best brands in football footwear"</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="brands-list">
+            <h2>Featured Brands</h2>
+            <div class="brand-images">
+                <div class="brand-item">
+                    <a href="https://www.nike.com/in/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlAHSjq7Gk3-FboSL_OMkC42bdCkxD12e4mw&s" alt="Nike Logo">
+                </div></a>
+                <div class="brand-item">
+                    <a href="https://www.adidas.co.in/" target="_blank"><img src="https://cdn.britannica.com/94/193794-050-0FB7060D/Adidas-logo.jpg?w=385" alt="Adidas Logo">
+                </div></a>
+                <div class="brand-item">
+                    <a href="https://in.puma.com" target="_blank"><img src="https://yt3.googleusercontent.com/jxU1WhYxqo-7QThEmUP9HsrS_UodD-JwpJHnrA_jDrfmtlzV-4MizcYRq2_7WOIhhKkovojd7t4=s900-c-k-c0x00ffffff-no-rj" alt="Puma Logo">
+                </div></a>
+                <div class="brand-item">
+                    <a href="https://www.underarmour.in" target="_blank"><img src="https://pbs.twimg.com/profile_images/1217113524532654081/kPJNPGc4_400x400.jpg" alt="Under Armour Logo">
+                </div></a>
+                <div class="brand-item">
+                    <a href="https://www.newbalance.com/" target="_blank"><img src="https://logos-world.net/wp-content/uploads/2020/09/New-Balance-Emblem.png" alt="New Balance Logo">
+                </div></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Elite Boots. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleCart() {
+            // Logic to show/hide the cart
+            alert("Cart toggled!");
+        }
+    </script>
+</body>
+</html>
