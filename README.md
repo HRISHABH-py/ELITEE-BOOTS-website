@@ -1,8 +1,9 @@
-⚽ ELITE BOOTS - Front End
-📖 Overview
+<h1>⚽ ELITE BOOTS - Front End </h1>
+<h2>📖 Overview</h2>
 
 ELITE BOOTS is an e-commerce platform dedicated to offering football enthusiasts a seamless and engaging online shopping experience. This repository contains the front-end code, developed with modern tools to ensure a responsive and dynamic user interface.
-🌟 Features
+
+<h2>🌟 Features</h2>
 
   1. Responsive Design: Tailored for seamless viewing across devices.
   2. Dynamic Components: Interactive UI elements for navigation, product display, and cart management.
@@ -10,39 +11,39 @@ ELITE BOOTS is an e-commerce platform dedicated to offering football enthusiasts
   4. Modern Stack: Built using React, TypeScript, and TailwindCSS for scalability and efficient styling.
   5. Video Integration: A promotional video enhances the user experience.
 
-📂 Project Structure
+<h2>📂 Project Structure</h2>
 
-project279/
-├── index.html               # Main entry point for the website
-├── brands.html              # Additional page for brand-specific browsing
-├── style.css                # Main styling file
-├── style1.css               # Additional styling file
-├── nike.mp4                 # Promotional video
-├── 12.ico                   # Favicon
-├── new1/                    # Development environment setup
-│   ├── vite.config.ts       # Vite configuration
-│   ├── tailwind.config.js   # TailwindCSS setup
-│   ├── tsconfig.json        # TypeScript configuration
-│   ├── script.js            # JavaScript script
-├── src/                     # Source code
-│   ├── App.tsx              # Main application file
-│   ├── components/          # React components
-│   │   ├── Navbar.tsx       # Navigation bar
-│   │   ├── Hero.tsx         # Hero section
-│   │   ├── ProductCard.tsx  # Product card component
-│   │   ├── Cart.tsx         # Cart functionality
-│   │   ├── CheckoutModal.tsx # Checkout modal
-│   ├── index.css            # Styling for the app
-│   ├── main.tsx             # Application entry point
+<em>project279/<br>
+├── index.html                         # Main entry point for the website<br>
+├── brands.html                        # Additional page for brand-specific browsing<br>
+├── style.css                          # Main styling file<br>
+├── style1.css                         # Additional styling file<br>
+├── nike.mp4                           # Promotional video<br>
+├── 12.ico                             # Favicon<br>
+├── new1/                              # Development environment setup<br>
+│   ├── vite.config.ts                 # Vite configuration<br>
+│   ├── tailwind.config.js             # TailwindCSS setup<br>
+│   ├── tsconfig.json                  # TypeScript configuration<br>
+│   ├── script.js                      # JavaScript script<br>
+├── src/                                # Source code<br>
+│   ├── App.tsx                        # Main application file<br>
+│   ├── components/                    # React components<br>
+│   │   ├── Navbar.tsx                 # Navigation bar<br>
+│   │   ├── Hero.tsx                   # Hero section<br>
+│   │   ├── ProductCard.tsx            # Product card component<br>
+│   │   ├── Cart.tsx                   # Cart functionality<br>
+│   │   ├── CheckoutModal.tsx          # Checkout modal<br>
+│   ├── index.css                      # Styling for the app<br>
+│   ├── main.tsx                       # Application entry point<br></em>
 
-🚀 Tech Stack
+<h2>🚀 Tech Stack</h2>
 
 1. Frontend Framework: React (with TypeScript)
 2. Styling: TailwindCSS, Vanilla CSS
 3. Build Tool: Vite
 4. Programming Language: TypeScript, JavaScript
 
-🔧 Installation and Setup
+<h2>🔧 Installation and Setup</h2>
 
 Follow these steps to set up the project locally:
 
@@ -62,7 +63,7 @@ Follow these steps to set up the project locally:
      ```
      http://localhost:3000
   
-  🤝 Contribution
+  <h2>🤝 Contribution</h2>
 
   We welcome contributions to improve ELITE BOOTS! To contribute:
 
@@ -78,7 +79,7 @@ Follow these steps to set up the project locally:
      git push origin feature-name
   5. Open a Pull Request.
 
-  📧 Contact:
+  <h2>📧 Contact:</h2>
 
   For inquiries, feedback, or support, reach out to us:
 
